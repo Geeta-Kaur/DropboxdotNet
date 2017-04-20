@@ -1,0 +1,72 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Logging
+</name>
+</assembly>
+<members>
+<member name="T:Linetime.Logging.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Linetime.Logging.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Linetime.Logging.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:Linetime.Logging.SupportInfo.AddInfoToError(System.String)">
+ <summary>
+ Adds some info to start of the error message. This provides a better explanation to the user for some generic error messages.
+ </summary>
+ <param name="errorMessage">The original error message.</param>
+ <returns>The modified error message. Same as original but additional information may be prepended</returns>
+</member>
+<member name="F:Linetime.Logging.Debugging.gstrLastConnectionString">
+ <summary>
+ Holds the last used connection string (minus the password)
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="M:Linetime.Logging.Debugging.DebugLogErrObj(Microsoft.VisualBasic.ErrObject,System.String)">
+ <summary>
+ Use for errorObjects of type ErrObject. Includes show error functionality
+ </summary>
+ <remarks>Reuses the code to handle a system.exception by generating one based on the ErrObject.
+ You can use this function to test for an errorObject as no logging is generated if there is no error.
+ This function resets the errorObject you passed in after logging has taking place.</remarks>
+</member>
+<member name="M:Linetime.Logging.MouseCursorControl.SetMouseCursor(System.Windows.Forms.Control,Linetime.Logging.MouseCursorControl.WaitCursorState)">
+ <summary>
+ Sets the mousecursor to busy/normal. When setting to normal moves the cursor one pixel to ensure it updates.
+ </summary>
+ <param name="parentControl"></param>
+ <param name="cursorState"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Linetime.Logging.MouseCursorControl.SetMouseCursor(Linetime.Logging.MouseCursorControl.WaitCursorState)">
+ <summary>
+ Sets the mousecursor to busy/normal. When setting to normal moves the cursor one pixel to ensure it updates.
+ </summary>
+ <param name="cursorState"></param>
+ <remarks></remarks>
+</member>
+<member name="M:Linetime.Logging.WindowsAPIs.ForceForegroundWindow(System.IntPtr,System.Boolean)">
+ <summary>
+ 
+ </summary>
+ <param name="hWnd"></param>
+ <returns></returns>
+ <remarks>Under newer Windows versions, Microsoft has disabled the SetForegroundWindow API call in all cases except when the calling
+application currently maintains the foreground. This routine forces the issue by attaching itself to the foreground thread, faking out the
+operating system. Slimy? You bet! But not as slimy as the reason for writing it in the first place.</remarks>
+</member>
+</members>
+</doc>

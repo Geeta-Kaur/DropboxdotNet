@@ -1,0 +1,322 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Database
+</name>
+</assembly>
+<members>
+<member name="T:Linetime.Database.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.database_red">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.database_red_16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.database_red_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.database_red_48x48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.database_red_64x64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.deadlock">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.deadlock_16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.deadlock_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.deadlock_48x48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.deadlock_64x64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.disregard_16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.disregard_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.disregard_48x48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.future_time">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.future_time_16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.future_time_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.future_time_48x48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.future_time_64x64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.Hourglass">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.Hourglass_16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.Hourglass_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.Hourglass_48x48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.Hourglass_64x64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.lockscreen">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.lockscreen_16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.lockscreen_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.lockscreen_48x48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.lockscreen_64x64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.network_error">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.network_error_16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.network_error_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.network_error_48x48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.network_error_64x64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.network_error2">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.network_error2_16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.network_error2_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.network_error2_48x48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.network_error2_64x64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.retry_16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.retry_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.retry_48x48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.ServerShutdown">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.ServerShutdown_16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.ServerShutdown_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.ServerShutdown_48x48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.ServerShutdown_64x64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.SQLMovement">
+<summary>
+  Looks up a localized resource of type System.Drawing.Icon similar to (Icon).
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.SQLMovement_16x16">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.SQLMovement_32x32">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.SQLMovement_48x48">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Linetime.Database.My.Resources.Resources.SQLMovement_64x64">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="M:Linetime.Database.ADOdotNET.ADORetries.RetryOnThisError(System.Exception,System.Int32@,System.Data.SqlClient.SqlConnection@)">
+ <summary>
+ This routine is used to handle specific timeout and network related errors when opening connections or processing ADO commands
+ </summary>
+ <param name="ex"></param>
+ <returns></returns>
+ <remarks>This routine will display a retry dialog box when network issues or timeouts arise, giving the user a chance to re-submit what they're doing without it crashing out.
+ Most timeouts or network errors are recoverable once the server is back online or, in the case of timeouts, the blocks/locks on the server have gone (or whatever was grinding the server to a halt has finished)
+ See S036240 for extensive details</remarks>
+</member>
+<member name="M:Linetime.Database.ADOdotNET.Executes.ExecuteNonQuery(System.Data.SqlClient.SqlConnection,System.String,System.Data.CommandType,System.Object[],System.Boolean,System.Int32,System.Boolean)">
+ <summary>
+ This function attempts to execute a query against the connection.
+ </summary>
+ <param name="connection"></param>
+ <param name="SQL"></param>
+ <param name="commandType"></param>
+ <param name="parameters"></param>
+ <param name="noTimeout"></param>
+ <param name="timeOutValue"></param>
+ <returns>It follows the standard rules of executequery i.e. 0 = nothing done, positive = number of rows affected.
+ Compound Queries return -2 for success or -1 for fail
+ </returns>
+ <remarks>Returning -1 indicates a failure to connect to the database or an sql exception when executing.</remarks>
+</member>
+<member name="M:Linetime.Database.ADOdotNET.Executes.ExecuteTransactionNonQuery(System.Data.SqlClient.SqlConnection@,System.String,System.Data.SqlClient.SqlTransaction@,System.Data.CommandType,System.Object[],System.Boolean,System.Int32)">
+ <summary>
+ This function attempts to execute a transaction query against the connection.
+ </summary>
+ <param name="Connection"></param>
+ <param name="SQL"></param>
+ <param name="Transaction "></param>
+ <param name="commandType"></param>
+ <param name="parameters"></param>
+ <param name="noTimeout"></param>
+ <param name="timeOutValue"></param>
+ <returns>It follows the standard rules of executequery i.e. 0 = nothing done, positive = number of rows affected.
+ Compound Queries return -2 for success or -1 for fail
+ </returns>
+ <remarks>Returning -1 indicates a failure to connect to the database or an sql exception when executing.</remarks>
+</member>
+</members>
+</doc>

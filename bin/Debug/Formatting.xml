@@ -1,0 +1,124 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Formatting
+</name>
+</assembly>
+<members>
+<member name="T:Linetime.Formatting.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:Linetime.Formatting.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:Linetime.Formatting.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+<member name="M:Linetime.Formatting.DatesAndTimes.ConvertDateToSQLDateTime(System.DateTime,Linetime.Formatting.DatesAndTimes.TimeType,System.Boolean)">
+ <summary>
+ Takes a VB date and converts it into a string which can be used as part of an SQL query.
+ </summary>
+ <param name="myDate">The VB Date</param>
+ <param name="timeType">There are 4 options for the way the time element of the date is converted 
+ StraightTimeConversion = Output time remains the same as input
+ MakeTimeMidnightForFromDates = Output time set to 00:00:00.000 - used for from dates in sql when we're only worried about the range of days
+ MakeTime1SecondBeforeMidnightForToDates = Output time set to 23:59:59.997 - used for to dates in sql when we're only worried about the range of days
+ No Time = Will not return date only</param>
+ <param name="returnNULLIf01010001">If True an incoming date of 01010001 will return a value of NULL which can be useful if you want to insert a null into a date field in an sql update.
+ If false the sql date string with no century code will be returned.</param>
+ <returns>A String suitable for use in SQL Queries</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Linetime.Formatting.DatesAndTimes.GetLiberateDate(System.String)">
+ <summary>
+ Gets the liberate date as a date.
+ </summary>
+ <param name="liberateDate">The liberate date as a string.</param>
+ <returns>The liberate date as a date</returns>
+</member>
+<member name="M:Linetime.Formatting.DatesAndTimes.GetLiberateTime(System.String)">
+ <summary>
+ Gets the liberate time as a date.
+ </summary>
+ <param name="liberateTime">The liberate time as a string.</param>
+ <returns>The liberate time as a date</returns>
+</member>
+<member name="M:Linetime.Formatting.DatesAndTimes.IsValidLiberateDate(System.String)">
+ <summary>
+ Determines whether [is valid liberate date] [the specified liberate date].
+ </summary>
+ <param name="liberateDate">The liberate date.</param>
+ <returns>
+ <c>true</c> if [is valid liberate date] [the specified liberate date]; otherwise, <c>false</c>.
+ </returns>
+</member>
+<member name="M:Linetime.Formatting.DatesAndTimes.CompareDates(System.DateTime,System.DateTime,Linetime.Formatting.DatesAndTimes.dcTypes)">
+ <summary>
+ Compares two dates to see which is large, can exclude time element.
+ </summary>
+ <param name="date1"></param>
+ <param name="date2"></param>
+ <param name="compareType"></param>
+ <returns></returns>
+ <remarks></remarks>
+</member>
+<member name="M:Linetime.Formatting.DatesAndTimes.GetDateBetweenTwoDates(System.DateTime,System.DateTime,System.Int32,System.Int32)">
+ <summary>
+ Returns a date between date1 and date2 by calculating a certain fraction of the days between the dates.
+ </summary>
+ <param name="date1"></param>
+ <param name="date2"></param>
+ <param name="numerator">The numerator (top part) of the fraction</param>
+ <param name="denominator">The denominator (bottom part) of the fraction</param>
+ <returns></returns>
+ <remarks>Use when you want e.g. three sevenths of the way between 1st March and 1st April - this is mainly used when using a slider bar for with specific divisions between dates</remarks>
+</member>
+<member name="M:Linetime.Formatting.Strings.ConcatStringsWithNewLine(System.String,System.String)">
+ <summary>
+ Returns the concatenation of two input strings with one newline inserted between them
+ </summary>
+ <param name="inputString1"></param>
+ <param name="inputString2"></param>
+ <returns>The concatenation of two input strings with one newline inserted between them</returns>
+ <remarks>If either input string are empty, the newline is not inserted.
+ If the first string already has a newline at the end of it, the newline is not inserted
+ If the second string already starts with a newline, the newline is not inserted.
+ If one of the input strings is empty and the other already has a newline then it is removed as unecessary.</remarks>
+</member>
+<member name="M:Linetime.Formatting.Strings.StringContainsForeignCharacters(System.String)">
+ <summary>
+ Returns True if the inputString loses information when encoded using the machines default encoding set.
+ </summary>
+ <param name="inputString"></param>
+ <returns>True if foreign characters detected</returns>
+ <remarks>Encodes the unicode inputString using the default encoding on the machine, then decodes it and compares with the original.
+ A difference indicates that the unicode inputString contains characters that could not be encoded using the machines default encoding;
+ These are most likley characters from a foreign character set (foreign here is a relative term meaning 'foreign to the local machine')</remarks>
+</member>
+<member name="M:Linetime.Formatting.StringExtensions.SplitToList(System.String,System.String)">
+ <summary>
+ Returns a collection of strings delimited by the supplied delimiter. Unlike "Split" the delimiter can be more than one character and the result is a generic collection.
+ </summary>
+ <param name="inputString"></param>
+ <param name="delimiter">The delimiter</param>
+ <returns>A generic list of strings delimited by delimiter</returns>
+ <remarks></remarks>
+</member>
+<member name="M:Linetime.Formatting.StringExtensions.ToSQL(System.String)">
+ <summary>
+ Returns a string suitable for use in sql statements.
+ </summary>
+ <param name="inputString"></param>
+ <returns>Returns a sql safe string with apostrophes doubled up.</returns>
+ <remarks></remarks>
+</member>
+</members>
+</doc>
